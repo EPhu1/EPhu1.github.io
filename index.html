@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<!--
+WRITTEN BY: Evan Phu
+EMAIL: ephu1@uci.edu
+-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Evan Phu">
+    <meta name="description" content="Personal Portfolio">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <!-- you would link to an external stylesheet here! -->
+    <!-- you would also link to Bootstrap here! -->
+    <title>Evan Phu Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" rel="stylesheet">
+    <link href = "styles.css" rel = "stylesheet">
+  </head>
+  <body>
+    <div class = "root">
+      <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" style = "font-size: 12px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"></div> 
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <div class="navbar-nav " style = "font-size: 18px;">
+            <a class="nav-item nav-link active" href="">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about-me">About</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#achievements">Achievements</a>
+          </div>
+        </div>
+      </nav>
+
+      <div style= "height: 100%; display:flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div class = "container-fluid" style = "text-align: center;">
+          <h1 id = "myName">Hey, I'm <strong >Evan</strong>.</h1>
+          <h2 id = "myTitle">An aspiring full-stack developer</h2>
+          <div class = "home-icons" style = "margin-top: 20px;">
+            <a href="https://www.linkedin.com/in/evan-phu-1842351b8/" class="fa fa-linkedin" title = "link to linkedin"></a>
+            <a href="https://github.com/EPhu1" class="fa fa-github" title = "link to github"></a>
+            <a href="mailto:evanphu@gmail.com" class="fa fa-envelope" title = "link to gmail"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "container-fluid">
+      <div class = "row" style = "background-color: white;">
+        <div class = "mt-5 mb-4  offset-1 offset-md-2 col-10 col-md-8 offset-xl-3 col-xl-6" style = "border-top: 2px solid rgb(82,106,192); border-radius: 50px; background-color: rgba(254, 248, 221, .2)">
+          <div style = "text-align: center;">
+            <h2 id = "about-me">About Me</h2>
+            <img style = "border: 1px none black; border-radius: 50%;" src = "assets/headshot.png" alt = "Picture of Evan Phu" id = "myPicture">
+            <p style = "margin-top: 20px;">Hello my name is <strong style = "color: rgb(82,106,192)">Evan</strong> and I am currently a student at University of California Irvine. I will be graduating on 
+              April 2021 with a B.S in Computer Science. I am really passionate about full-stack, mobile app, and web development.
+              Additionally, I love video games and esports!
+            </p>
+          </div>
+        </div>
+        <div class = "mb-5 offset-1 col-10 col-sm-5 offset-sm-1 offset-md-2 col-md-4 offset-xl-3 col-xl-3" style = "text-align: center; background-color: rgba(254, 248, 221, .2); ">
+          <div style = "padding-bottom: 5px; display:flex; justify-content: center; align-items: flex-end; height: 75px; ">  
+            <img src = "assets/programming.png" alt = "Programming Icon" style = "width: 50px;">
+          </div>
+          <h3 style = "margin-bottom: 20px; text-decoration: underline; text-decoration-color: rgb(82,106,192);">Languages</h3>
+            <p>HTML</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>Python</p>
+            <p>Java</p>
+            <p>C</p>
+        </div>
+        <div class = "mb-5 offset-1 col-10 offset-sm-0 col-sm-5 col-md-4 col-xl-3" style = "text-align: center; background-color: rgba(254, 248, 221, .2);">
+          <div style = "display:flex; justify-content: center; align-items: flex-end; height: 75px; ">  
+            <img src = "assets/react.png" alt = "React Icon" style = " width: 100px;">
+          </div>
+            <h3 style = "margin-bottom: 20px; text-decoration: underline; text-decoration-color: rgb(82,106,192);">Frameworks & Tools</h3>
+            <p>ReactJS</p>
+            <p>React Native</p>
+            <p>NodeJS</p>
+            <p>MongoDB</p>
+            <p>ExpressJS</p>
+            <p>BootStrap</p>
+        </div>
+      </div>
+
+      <div class = "row" style = "background-color: rgba(254, 248, 221, .2);">
+        <div class = "offset-1 mt-5 mb-5 col-10 offset-md-2 col-md-8 offset-xl-3 col-xl-6" style = "border-top: 2px solid rgb(82,106,192); border-radius: 50px;text-align: center;">
+          <h2 id = "projects">Featured Projects</h2>
+          <p>These are a few of my projects. <br/>Visit my <a style = "color: rgb(82,106,192)" href="https://github.com/EPhu1">Github</a> for a complete overview.</p>
+        </div>
+      </div>
+
+      <div class = "row" style = "background-color: rgba(254, 248, 221, .2);">
+        <div class = "col-12 col-md-6 offset-xl-3 col-xl-3">
+          <div>
+            <img src = "assets/newLife.PNG" alt = "Picture of Sobriety App" style = "width: 100%; margin-bottom: 10px;">
+          </div>
+        </div>
+        <div class = "pr-md-5  offset-1 col-10 offset-md-0 col-md-6 col-xl-4" style = "display:flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h3 style = "text-align: center;"><a class = "project-title" href = "https://github.com/EPhu1/NewLife-SobrietyApplication">New Life Sobriety Application</a></h3>
+          <ul>
+            <li>Encourages rehabilitation through stats and milestones.</li>
+            <li>Simple user interface and intuitive design.</li>
+            <li>React Native, HTML, CSS, JavaScript.</li>
+            <li>Stores data locally.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "row" style = "background-color: rgba(254, 248, 221, .2);">
+        <div class = " mt-5 col-12 mb-md-5 col-md-6 offset-xl-3 col-xl-3">
+          <div style = "text-align: center;">
+            <img src = "assets/employeeDatabase.png" alt = "Picture of Employee Database Application" style = "width: 100%; margin-bottom: 10px;">
+          </div>
+        </div>
+        <div class = "mb-5 offset-1 col-10 offset-md-0 pr-md-5 mt-md-5 col-md-6 col-xl-4" style = "display:flex; flex-direction: column; justify-content: center; align-items: center;">
+          <h3 style = "text-align: center;"><a class = "project-title" href = "https://github.com/EPhu1/Employee-Database">Employee Database Application</a></h3>
+          <ul>
+            <li>Create, edit, view, or delete contacts.</li>
+            <li><a href = "https://www.geeksforgeeks.org/mern-stack/" style = "color: rgb(82,106,192)">MERN</a> stack implemetation (MongoDB, ExpressJS, React Native, NodeJS).</li>
+            <li>Utilizes Redux to efficiently manage state.</li>
+            <li>Modern and clean user interface.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "mt-5 offset-1 col-10 offset-xl-3 col-xl-6" style = "border-top: 2px solid rgb(82,106,192); border-radius: 50px; text-align: center; ">
+          <h2 id = "achievements">Achievements</h2>
+        </div>
+        <div class = " mt-5 offset-1 col-10 offset-xl-3 col-xl-6">
+          <div style = "text-align: center;">
+            <img src = "assets/clol2018.jpg" alt = "Picture of 2018 Collegiate League of Legends Championship" style = "width: 100%; margin-bottom: 10px;">
+            <h3><a href = "https://www.espn.com/esports/story/_/id/23756483/uc-irvine-beats-columbia-college-3-0-college-league-legends-championship" style = "color: inherit;">National Collegiate Esports Champion</a></h3>
+          </div>
+        </div>
+        <div class = "mb-5 offset-1 col-10 col-sm-10 offset-xl-3 col-xl-6 side-border" style = "text-align: center; background-color:rgba(254, 248, 221, .2)">
+          <p>Ever since I joined UCI in 2016, I was apart of UCI Esports, the first recognized collegiate esports program in the country.
+            I played on a <a href = "https://lol.gamepedia.com/Captain_Nuke" style = "color: rgb(82,106,192)">very competitive level</a> and I won several championships, bringing fame to UCI. This is a picture
+            of me winning the National Collegiate League of Legends Championship in 2018, where over 300 North American schools competed in. 
+          </p>
+        </div>
+      </div>
+
+      <div class = "row" style = "border: 1px solid black; padding-top: 30px; background: linear-gradient(#707070, #464646);">
+        <div class = "col-2 col-md-3 col-lg-4 col-xl-5"></div>
+        <div class = "col-8 col-md-6 col-lg-4 col-xl-2 footer-container">
+          <a href="https://www.linkedin.com/in/evan-phu-1842351b8/" class="fa fa-linkedin" title = "link to linkedin"></a>
+          <a href="https://github.com/EPhu1" class="fa fa-github" title = "link to github"></a>
+          <a href="mailto:evanphu@gmail.com" class="fa fa-envelope" title = "link to gmail"></a>
+        </div>
+        <div class = "col-2 col-md-3 col-lg-4 col-xl-5"></div>
+        <div class = "col-12" style = "margin-top: 5px; text-align: center;">
+          <p style = "font-size: 18px; color: #a3a3a3">
+            <strong style = "font-size: 23px">©</strong> 
+            2020 Evan Phu
+          </p>
+        </div>
+      </div>
+
+      
+    </div>
+    <!--scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
